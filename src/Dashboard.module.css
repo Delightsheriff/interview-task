@@ -1,4 +1,5 @@
 .main {
+  margin-top: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +16,7 @@
 
 .section {
   width: 100%;
-  margin: auto;
+  margin: 3rem 0;
   max-width: 600px;
   background-color: white;
   min-height: 700px;
