@@ -1,0 +1,55 @@
+.card:not(:last-child) {
+  border-bottom: 1px solid #cecece;
+  padding: 1rem 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+
+    .currency {
+      font-weight: 400;
+    }
+  }
+}
+
+.currencyIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.balance {
+  font-weight: 200;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priceRate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+.rates {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  color: #37b983;
+}
+
+.marketPrice,
+.balanceInDollars {
+  font-size: 0.8rem;
+  color: #cecece;
+}

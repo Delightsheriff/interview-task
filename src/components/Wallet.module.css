@@ -1,0 +1,75 @@
+.main {
+  .amount {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #cecece;
+  }
+  /* styles.module.css */
+  .container {
+    position: relative;
+  }
+
+  .icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .input {
+    padding-left: 2.5rem;
+    padding-right: 4rem;
+  }
+  .currencyIcon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .form {
+    .inputBox {
+      padding: 0.5rem 0;
+      label {
+        font-size: small;
+        font-weight: bold;
+        margin: 0.3rem 0;
+      }
+      input {
+        margin: 0.5rem 0;
+      }
+    }
+    .balance {
+      font-size: small;
+      padding-bottom: 0.5rem;
+    }
+
+    .discount p {
+      font-size: small;
+      background-color: #cecece;
+      display: inline-block;
+      padding: 0.2rem 0.5rem;
+      border-radius: 5px;
+      margin: 0.8rem 0;
+      margin-right: 0.5rem;
+    }
+
+    .fees {
+      padding: 1rem 0;
+      p {
+        font-size: small;
+      }
+    }
+    .button {
+      padding: 0.5rem 1rem;
+      background-color: #be2bef;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+      font-weight: 100;
+      font-family: "JetBrains Mono", monospace;
+    }
+  }
+}

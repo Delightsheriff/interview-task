@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Inconsolata:wght@200..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100dvh;
+  background-image: url("./assets/background.png");
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+}
+
+/* Style links */
+a {
+  color: #cecece;
+  text-decoration: none;
+}
+
+/* Style lists */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Style buttons */
+button,
+input[type="submit"] {
+  /* background-color: var(--accent); */
+  /* color: #fff; */
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+button:hover,
+input[type="submit"] {
+  opacity: 0.8;
+  color: var(--background);
+}
+
+/* Style form inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #cecece;
+  background-color: #fbfbfb;
+  border-color: #be2bef;
+}
+select,
+option {
+  background-color: #fff;
+}
